@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Yatra</string>
+    <string name="app_logo_description">This is app logo.</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_enter_phone">Enter Phone Number</string>
+    <string name="form_enter_password">Enter Password</string>
+    <string name="sign_up_text">Are you a new user? Sign up here.</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="already_a_user_login_here">Already a user? Login here.</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="continueToVerification">Continue</string>
+    <string name="enter_otp_code">Enter OTP Code</string>
+    <string name="verify">verify</string>
+    <string name="save_details">Save details</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_second_name">Enter Second Name</string>
+    <string name="select_gender">Select Gender</string>
+
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="find_buses">Find Buses</string>
+    <string name="find_tickets">Find Tickets</string>
+    <string name="from">From</string>
+    <string name="select_city">Select city</string>
+    <string name="to">To</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select date</string>
+    <string name="search_tickets">Search tickets</string>
+    <string name="search_results">Search Results</string>
+    <string name="back_button">Back Button</string>
+    <string name="sajha_yatayat">Sajha Yatayat</string>
+    <string name="departure_time_02_00_pm">Departure Time: 02:00 PM</string>
+    <string name="seats_avilable_8">Seats avilable:8</string>
+    <string name="rs_800">Rs. 800</string>
+    <string name="book_ticket">Book Ticket</string>
+    <string name="from_kathmandu">From: Kathmandu</string>
+    <string name="_01_jan_2022">01 Jan 2022</string>
+    <string name="time_02_00_pm">Time: 02:00 PM</string>
+    <string name="facilities">AC, Mobile charging, Snacks, Water, Comfortable Seats, Friendly Staffs</string>
+    <string name="ba_1_pa_2001">Ba 1 Pa 2001</string>
+    <string name="a1_a2_a3_a4_a5_a6_a7_a8_a9_a10_a11_a12_a13_a14_a15_a16_a17_b1_b2_b3_b4_b5_b6_b7_b8_b9_b10_b11_b2_b13_b14_b15_b16_b17">A1 A2 A3 A4 A5 A6 A7 A8 A9 A10 A11 A12 A13 A14 A15 A16 A17 B1 B2 B3 B4 B5 B6 B7 B8 B9 B10 B11 B2 B13 B14 B15 B16 B17</string>
+    <string name="kathmandu_to_pokhara">Kathmandu To Pokhara</string>
+    <string name="enter_passenger_name">Enter Passenger Name</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_seat_number">Enter Seat Number</string>
+    <string name="book_tickets">Book Tickets</string>
+    <string name="ishor_amgai">Ishor Amgai</string>
+    <string name="_9810384877">9810384877</string>
+    <string name="log_out">Log out</string>
+    <string name="a1_a2">A1 A2</string>
+    <string name="arniko_yatayat">Arniko Yatayat</string>
+    <string name="cancel_ticket">Cancel Ticket</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:background="@color/colorSkyBlue"
+    >
+    <TextView
+        android:id="@+id/ticket_from_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kathmandu_to_pokhara"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticket_passenger_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ishor_amgai"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticket_booked_seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a1_a2"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticket_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/time_02_00_pm"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticket_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_01_jan_2022"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticket_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/arniko_yatayat"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/ticket_bus_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Na 1 Pa 2250"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/cancel_ticket_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_ticket" />
+
+
+</LinearLayout>

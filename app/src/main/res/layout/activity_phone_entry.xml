@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accountManagement.PhoneEntryActivity"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/enter_phone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sign_up_enter_phone"
+            app:boxStrokeColor="@color/colorMain"
+            app:boxStrokeWidthFocused="2dp"
+            app:endIconMode="clear_text"
+            app:errorTextColor="@color/colorMainDark"
+            app:hintTextColor="@color/colorMainDark"
+            app:startIconDrawable="@drawable/ic_baseline_phone_iphone_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:textColor="@color/colorDarkBlackText" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/button_login"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:onClick="launchOTPVerification"
+            android:padding="15sp"
+            android:text="@string/continueToVerification"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:backgroundTint="@color/colorMain" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

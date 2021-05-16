@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:elevation="5dp"
+    android:id="@+id/bus_search_result_layout">
+
+    <TextView
+        android:id="@+id/yatayat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sajha_yatayat"
+        android:textColor="@color/colorDarkBlackText"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/departure_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/departure_time_02_00_pm"
+        android:textColor="@color/colorDarkBlackText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yatayat_name" />
+
+    <TextView
+        android:id="@+id/seats_available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seats_avilable_8"
+        android:textColor="@color/colorDarkBlackText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/ticket_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rs_800"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/departure_time" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

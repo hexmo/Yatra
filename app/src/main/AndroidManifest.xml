@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yatra">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yatra">
+        <activity android:name=".ticket.ViewBusFullDetailActivity"></activity>
+        <activity android:name=".ticket.SearchTicketsActivity" />
+        <activity android:name=".accountManagement.OtpVerificationActivity" />
+        <activity android:name=".accountManagement.PhoneEntryActivity" />
+        <activity android:name=".accountManagement.SignUpActivity" />
+        <activity android:name=".accountManagement.LoginActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".notification.BroadcastReceiverClass" android:enabled="true"/>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
